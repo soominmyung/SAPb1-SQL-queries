@@ -9,6 +9,15 @@ They were originally designed and deployed at **Korea Foods (£78M turnover, 20+
 
 <br> 
 
+## Key Stack
+- T-SQL on Microsoft SQL Server
+- SAP Business One database schema (OITM, OITW, OWOR, OPCH, OINV, ITT1, etc.)
+- User Defined Tables (UDT) & Fields (UDF)
+- Query Manager and Formatted Search integration
+- Used as part of automation pipelines (MSSQL Agent) and BI dashboards (Tableau)
+
+<br>
+
 ## Business Impact
 - Enabled **reliable daily stock history** → contributed to **£3.9M revenue uplift** by preventing stock-outs  
 - Automated reporting and data validation → saved **5,000+ staff hours annually**  
