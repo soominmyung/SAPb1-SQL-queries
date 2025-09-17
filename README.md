@@ -1,4 +1,4 @@
-# SAPb1-SQL-queries
+# SAP b1 SQL queries
 ### An anonymised collection of SAP Business One SQL queries originally developed and used at Korea Foods.
 
 <br> 
@@ -29,12 +29,12 @@ They were originally designed and deployed at **Korea Foods (£78M turnover, 20+
 | File name | Purpose | Notes |
 |-----------|---------|-------|
 | `inventory_availability_by_warehouse.sql` | Shows available stock per item across multiple warehouses, adjusted for sales units. | Used by purchasing and sales to check real availability. |
-| `bp_group_init.sql` | Initialises a user-defined BP group table with categories like Customer, Supplier, Online. | Demonstrates UDT setup. |
+| `bp_group_init.sql` | Creates and initialises a user-defined BP group table. | Simplified a messy customer code structure by introducing clear grouping rules, making it easier to segment and analyse business partners. |
 | `production_material_usage_by_month.sql` | Tracks issued raw materials for a given finished good across 12 months. | Supports cost tracking and forecast of component usage. |
-| `landed_cost_moving_average.sql` | Calculates landed cost per UOM and a 3-period moving average. | Key reference for pricing and margin validation. |
+| `landed_cost_moving_avg.sql` | Calculates landed cost per UOM and a 3-period moving average. | Key reference for pricing and margin validation. |
 | `bom_parent_item_lookup.sql` | Finds parent items (finished goods) that consume a given component in BOM. | Useful for substitution and dependency analysis. |
 | `sales_and_returns_report.sql` | Combines invoice and credit memo lines with flexible partner/item filters. | Saved finance & sales teams manual reconciliations. |
-| `fs_autofill_hscode.sql` | Formatted search to auto-fill HS Code when creating AP/PO docs. | Reduced manual entry errors in purchasing. |
+| `fs_autofill_hscode.sql` | Formatted search to auto-fill Container Code when creating AP/PO docs. | Reduced manual entry errors in purchasing. |
 | `first_import_items_history.sql` | Shows items first imported in AP invoices, marking new products. | Helped track new SKUs and supplier performance. |
 
 <br> 
