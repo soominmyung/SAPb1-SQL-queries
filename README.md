@@ -3,6 +3,14 @@
 
 <br> 
 
+## ⚠️ Note:  
+**Some high-impact SQL projects I delivered — such as the automated daily stock snapshot and daily sales scheduling — cannot be published here due to strong company-specific identifiers.**
+These processes were central to providing Korea Foods with its first reliable daily inventory history and automated retail sales monitoring.  
+
+This repository therefore contains anonymised queries that are safe to share, while still illustrating my ability to build practical SQL solutions for SAP Business One that improved inventory management, sales operations, costing, and fraud detection.
+
+<br>
+
 ## Overview
 This repository showcases anonymised SQL queries written for **SAP Business One** to support reporting, automation, and decision-making.  
 They were originally designed and deployed at **Korea Foods (£78M turnover, 20+ stores in the UK)**, where I worked as the company’s first in-house Data Scientist.  
@@ -14,7 +22,7 @@ They were originally designed and deployed at **Korea Foods (£78M turnover, 20+
 - SAP Business One database schema (OITM, OITW, OWOR, OPCH, OINV, ITT1, etc.)
 - User Defined Tables (UDT) & Fields (UDF)
 - Query Manager and Formatted Search integration
-- Used as part of automation pipelines (MSSQL Agent) and BI dashboards (Tableau)
+- Used as part of automation pipelines (MSSQL Agent) and BI dashboards (Tableau) - not all examples are published here due to company-specific sensitivity
 
 <br>
 
@@ -45,6 +53,7 @@ They were originally designed and deployed at **Korea Foods (£78M turnover, 20+
 | `sales_and_returns_report.sql` | Combines invoice and credit memo lines with flexible partner/item filters. | Saved finance & sales teams manual reconciliations. |
 | `fs_autofill_hscode.sql` | Formatted search to auto-fill Container Code when creating AP/PO docs. | Reduced manual entry errors in purchasing. |
 | `first_import_items_history.sql` | Shows items first imported in AP invoices, marking new products. | Helped track new SKUs and supplier performance. |
+| `duplicate_sales_order_alert.sql` | Prevents duplicate sales orders for the same customer and delivery date by raising an alert. | Helped sales team reduce errors and avoid operational confusion. |
 
 <br> 
 
