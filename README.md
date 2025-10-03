@@ -28,9 +28,9 @@ They were originally designed and deployed at **Korea Foods (£78M turnover, 20+
 
 ## Business Impact
 - Enabled **reliable daily stock history** → improved replenishment decisions and supported wider initiatives that delivered a **£3.9M revenue uplift**
-- Automated reporting and data validation → saved **5,000+ staff hours annually**  
+- Automated reporting and data validation → saved **1,875+ staff hours annually**  
 - Improved cost accuracy with **landed cost validation and moving averages** → provided robust reference for pricing decisions  
-- Built fraud detection queries → uncovered **£700K in irregular membership claims**  
+- Built fraud detection queries → uncovered **£70K in irregular membership claims**  
 
 <br> 
 
